@@ -10,9 +10,9 @@ router.get("/", (req, res) => {
   });
 });
 
-router.get("/blog", (req, res) => {
+router.get("/about", (req, res) => {
   res.json({
-    title: "Hello World"
+    title: "About routing"
   });
 });
 
