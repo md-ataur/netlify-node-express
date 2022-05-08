@@ -5,14 +5,12 @@ const app = express();
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  res.json({
-    hello: "hi!"
-  });
+  res.send('Server is running');
 });
 
 router.get("/about", (req, res) => {
   res.json({
-    title: "About routing"
+    title: "Hello World"
   });
 });
 
